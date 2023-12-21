@@ -64,3 +64,23 @@ console.log(paperwork(5, 7))*/
     }
     const classInstance = new SmallestIntegerFinder()
     console.log(classInstance.findSmallestInt([2, 5, 7, 23, 37, 49, 1, 3]))*/
+
+    // function past(h, m, s){
+    // let hora = 3600 * h
+    // let minuto = 60 * m //Codigo para transformar horas, minutos e segundos em milisegundos
+    // let segundos = 1 * s
+    // let mili = (hora + minuto + segundos) * 1000
+    // return mili
+    // }
+    // console.log(past(2, 20, 30));
+
+    // function past(h, m, s){
+    //   return ((3600 * h + 60 * m + s) * 1000) //Codigo simplificado para transformar horas, minutos e segundos em milisegundos
+    // }
+    // console.log(past(2, 20, 30));
+
+    // function noSpace(x){
+    //   return x.replace(/ /g, '') // Remove os espaços em branco de uma string.
+    // }
+    // console.log(noSpace('otavio augusto de souza nepomuceno'));
+    
