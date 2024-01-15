@@ -84,3 +84,42 @@ console.log(paperwork(5, 7))*/
     // }
     // console.log(noSpace('otavio augusto de souza nepomuceno'));
     
+    // function palindromo(verificar) {
+    //   let texto = verificar.split('').reverse().join('').replace(/ /g, '')
+    //   if (texto === verificar.replace(/ /g, '')) { // Verifica se a palavra/frase é um palindromo e remove os espaços quando for um texto
+    //     return true 
+    //   }
+    //   else {
+    //     return false
+    //   }
+    // }
+    // console.log(palindromo('a base vem forte'));
+
+    // function greet() {
+    //   let word = 'Hello World!'
+    //   return word            //Retorna a string da função sem usar o parametro
+    // }
+    // console.log(greet())
+
+    // function reverseWords(str) {
+    //   let invertendo = str.split(' ') //Separa ao invés das letras, as palavras, devido o metodo com espaço
+    //   let resultado = [] // Armazena todos os valores em uma lista
+    //   for (let index = 0; index < invertendo.length; index+=1) { //Percorre toda a lista do primeiro ao ultimo elemento
+    //     resultado.push(invertendo[index].split('').reverse().join('')) //Invertendo as palavras e adicionando em resultado
+    //   }
+    //   return resultado.join(' ') //Retornando as palavras invertidas e convertendo os itens da lista em uma única string e fixa o separador como um espaço
+    // }
+    // console.log(reverseWords('The quick brown fox jumps over the lazy dog.'))
+        
+    // function areYouPlayingBanjo(name) {
+    //   if (name.toLowerCase().startsWith('r')) { //Condiciona a primera letra e converte para minusculo
+    //   return `${name} plays banjo`
+    // }
+    // return `${name} does not play banjo`
+    // }
+    // console.log(areYouPlayingBanjo('Ricardo'));       
+        
+        
+      
+      
+     
