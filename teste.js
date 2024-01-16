@@ -117,9 +117,34 @@ console.log(paperwork(5, 7))*/
     // }
     // return `${name} does not play banjo`
     // }
-    // console.log(areYouPlayingBanjo('Ricardo'));       
+    // console.log(areYouPlayingBanjo('Ricardo'));        
         
-        
+    // String.prototype.toJadenCase = function () {
+    //   let frase = this.split(' ') // Separa ao invés das letras, as palavras, devido o metodo com espaço
+    //   let result = [] // Armazena todos os valores em uma lista
+    //   for (let index = 0; index < frase.length; index++) {
+    //     result.push(frase[index][0].toUpperCase() + frase[index].substring(1)) //Torna a primeira letra maiuscula e concatena a partir da segunda
+    //   }
+    //   return result.join(' ') 
+    //  }
+    //  console.log('How can mirrors be real if our eyes aren\'t real'.toJadenCase())
+    //  console.log('otavio pedro mariano mickey'.toJadenCase())
+
+    // function descendingOrder(n){
+    //   let str = n.toString() // Converte de número para string
+    //   let list = str.split('') // Converte de string para lista
+    //   let sort = list.sort((a, b) => b - a).join('') // Faz a ordenaçao decrescente e junta a lista em uma única string
+    //   return parseInt(sort) // Converte a string em número novamente
+    // }
+    // console.log(descendingOrder(345))
+    // console.log(descendingOrder(1234))
+    // console.log(descendingOrder(68917))
+      
+      
+     
+      
+       
+      
       
       
      
