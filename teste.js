@@ -139,9 +139,41 @@ console.log(paperwork(5, 7))*/
     // console.log(descendingOrder(345))
     // console.log(descendingOrder(1234))
     // console.log(descendingOrder(68917))
+
+    // function minMax(arr){
+    //   return [arr.sort(function(a, b){return a - b;})[0], arr[arr.length - 1]] // Ordena a lista(crescente) e retorna o primeiro e ultimo indice
+    // }
+    // console.log(minMax([9, 8, 5, 2, 3, 1]))
+    // console.log(minMax([112, 23, 257, 5, 322]))
+    // console.log(minMax([11]))
       
-      
+    // const list = [17, 1, 23,]
+    // const doublelist = [...list]
+    // doublelist.push(5)
+    // console.log(list)
+    // console.log(doublelist);
      
+    // let isLogged = true
+    // let pessoa = {
+    //   ...(isLogged && {id:1262}),
+    //   nome: 'otavio',
+    //   idade: 26
+    // }
+    // console.log(pessoa);
+     
+  //   function nbYear(p0, percent, aug, p) {
+  //     let years = 0
+  //     while (p0 < p) {
+  //     p0+= Math.floor(p0 * (percent / 100)) + aug
+  //      years+=1
+  //     }
+  //     return years
+  // }
+  // console.log(nbYear(1000, 2, 50, 1200));
+  // console.log(nbYear(1500, 5, 100, 5000));
+  // console.log(nbYear(1500000, 2.5, 10000, 2000000));
+  // console.log(nbYear(1500000, 0.25, 1000, 2000000));
+
       
        
       
