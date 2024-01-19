@@ -174,9 +174,42 @@ console.log(paperwork(5, 7))*/
   // console.log(nbYear(1500000, 2.5, 10000, 2000000));
   // console.log(nbYear(1500000, 0.25, 1000, 2000000));
 
-      
-       
-      
+// Retorna a execução dos operados básicos vindos por parametro. 
+  
+// function basicOp(operation, value1, value2){
+//     if (operation == '+') {
+//       return value1 + value2
+//     } else if (operation == '-') {
+//       return value1 - value2
+//     } else if (operation == '*') {
+//       return value1 * value2
+//     } else {
+//       return value1 / value2
+//     }
+// }
+// console.log(basicOp('+', 3, 4));
+// console.log(basicOp('-', 3, 4));
+// console.log(basicOp('*', 3, 4));
+// console.log(basicOp('/', 3, 4));
+
+// function squareSum(numbers) {
+// let sum = 0                 //Criado um acumulador para armazenar os valores da lista.
+// for (let index = 0; index < numbers.length; index+=1) {
+//   sum+=numbers[index] ** 2 // Eleva ao quadrado cada numero da lista e faz a soma pelo incremento.
+// }
+// return sum
+// }
+// console.log(squareSum([2,3,4]));
+
+// function disemvowel(str) {
+//   return str.replace(/[aeiou]/gi, '') //Remove as vogais
+//   }
+//   console.log(disemvowel('otavio'));
+//   console.log(disemvowel('otavio augusto de souza nepomuceno'));
+//   console.log(disemvowel('corinthians'));
+//   console.log(disemvowel('OTAVIO'));
+
+
       
       
      
