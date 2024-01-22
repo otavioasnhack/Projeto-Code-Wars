@@ -209,7 +209,87 @@ console.log(paperwork(5, 7))*/
 //   console.log(disemvowel('corinthians'));
 //   console.log(disemvowel('OTAVIO'));
 
+// CÓDIGO PARA CALCULAR A MÉDIA DA LISTA (INDEPENDENTE DO TAMANHO) 
 
-      
-      
-     
+// function findAverage(array) {
+//   if (array.length == 0) {
+//     return 0;
+//   }
+// let soma = 0
+// for (let index = 0; index < array.length; index+=1) {
+//   soma+=array[index]
+// }
+// let media = soma / array.length
+// return media
+// }
+// console.log(findAverage([1,2,3,4]))
+// console.log(findAverage([1,2,3]))
+// console.log(findAverage([]))
+
+// class Kata {
+//   static getVolumeOfCuboid(length, width, height) {  // calcular o volume de um paralelepípedo com três valores
+//     return length * width * height
+//   }
+// }
+// console.log(Kata.getVolumeOfCuboid(1,2,2));
+
+// function getAge(inputString){
+//   return parseInt(inputString) // Retorna somente o número da string
+// }
+// console.log(getAge('5 years old'));
+
+// function positiveSum(arr) {
+//   if (arr.length == 0) { // Se houver um array vazio, retorna 0 conforme solicitado
+//     return 0
+//   }
+//   let soma = 0
+//   for (let index = 0; index < arr.length; index++) {
+//     if (arr[index] > 0) { // Ignoro os numeros negativos da soma 
+//       soma+= arr[index]
+//     }
+//   }
+//   return soma
+// }
+// console.log(positiveSum([10,20,30,40,-150,60]))
+// console.log(positiveSum([10,20,30,40,-110,-200]))
+// console.log(positiveSum([50]))
+// console.log(positiveSum([]))
+
+// function otherAngle(a, b) {
+//   return 180 - (a + b) // Retorna o terceiro ângulo de um triângulo fornecendo dois valores
+// }
+// console.log(otherAngle(1,10))
+// console.log(otherAngle(90,30))
+// console.log(otherAngle(60,60))
+
+// FAZ A COMPARAÇAO ENTRE OS DOIS VALORES DE UMA LISTA DE LISTAS E RETORNA O VALOR CORRESPONDENTE
+
+// function openOrSenior(data){
+//   let list = []
+//   for (let index = 0; index < data.length; index+=1) {
+//     if (data[index][0] > 55 && data[index][1] > 7) {
+//       list.push('Senior')
+//     }
+//       else {
+//       list.push('Open')
+//     }
+//   }
+//   return list
+// }
+// console.log(openOrSenior([[59, 12],[55, -1],[12, -2],[12, 8]]))
+// console.log(openOrSenior([[45, 12],[55, 21],[19, -2],[104, 20]]))
+
+// function checkForFactor (base, factor) {
+//   if (base % factor == 0 ) {
+//     return true
+//   } else {
+//     return false
+//   }
+//   // return base % factor == 0 ? true : false // Resolução via ternário
+//   // return base % factor == 0 // Simplificando a resolução anterior
+// }
+// console.log(checkForFactor(10,2))
+// console.log(checkForFactor(63,8))
+// console.log(checkForFactor(2450,11))
+// console.log(checkForFactor(24612,3)) 
+
