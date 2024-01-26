@@ -293,3 +293,25 @@ console.log(paperwork(5, 7))*/
 // console.log(checkForFactor(2450,11))
 // console.log(checkForFactor(24612,3)) 
 
+// function singleElement(uniq) {
+//   let unico = {} // Criado um objeto como contador de N itens da lista
+//   for (let index = 0; index < uniq.length; index++) { 
+//     const currentElement = uniq[index] // Criado uma constante que assumi cada valor da lista(Item corrente)
+//     if (unico[currentElement] === undefined) { // verifica se o valor da CONSTANTE é uma chave de UNICO
+//       unico[currentElement]=1 // Ah cada novo item, cria uma chave com o valor da CONSTANTE e atribui o valor 1 
+//     }
+//     else {
+//       unico[currentElement]+=1 // Após a chave criada, ele itera cada nova recorrencia 
+//     }
+//   }
+//   const uniqEntries = Object.entries(unico) // Transforma { '1': 4, '2': 1 } em [ [ '1', 4 ], [ '2', 1 ] ] -> Cria uma constante para modificar o objeto em uma lista de listas(A chave se torna o indice 0 e o indice 1, o valor da chave)
+//   for (let index = 0; index < uniqEntries.length; index++) {
+//     if (uniqEntries[index][1] == 1) { // Busca em [ [ '1', 4 ], [ '2', 1 ] ] o valor [ '2', 1 ] -> Filtra no indice 1, todos que tem o valor 1 
+//       return uniqEntries[index][0] // Busca em [ '2', 1 ] o valor 2 -> Retorna o indice 0, referente ao valor buscado
+//     }
+//   }
+  
+// }
+// console.log(singleElement([1,1,1,2,1]))
+// console.log(singleElement([4,2,1,2,1]))
+// console.log(singleElement([51,10,10,20,1,51,20]))
