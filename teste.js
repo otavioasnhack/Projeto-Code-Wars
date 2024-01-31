@@ -315,3 +315,90 @@ console.log(paperwork(5, 7))*/
 // console.log(singleElement([1,1,1,2,1]))
 // console.log(singleElement([4,2,1,2,1]))
 // console.log(singleElement([51,10,10,20,1,51,20]))
+
+// function filter_list(l) {
+//   return l.filter(item => typeof item === 'number'); // verifica se o tipo de cada elemento no array é um número. O método filter cria um novo array contendo apenas os elementos que atendem a essa condição.
+// }
+// console.log(filter_list([1,2,'a','b']));
+// console.log(filter_list([1,'a','b',0,15]));
+// console.log(filter_list([1,2,'aasf','1','123',123]));
+
+// Código para calcular o índice de massa corporal (imc = peso / altura 2 ).
+
+// function bmi(weight, height) {
+//   let imc = weight/(height*height)
+//   if (imc <= 18.5) {
+//     return "Abaixo do peso"
+//   }
+//   else if (imc <= 25.0){
+//     return "Normal"
+//   }
+//   else if (imc <= 30.0){
+//     return "Excesso de peso"
+//   }
+//   else {
+//     return "Obeso"
+//   }
+// }
+// console.log(bmi(80, 1.70));
+
+// O número é passado por parametro e tem que retornar o mesmo por extenso!
+
+// function switchItUp(number){
+//   switch (number) {
+//     case 0:
+//      return 'Zero'
+//     case 1:
+//      return 'One' 
+//     case 2:
+//      return 'Two'
+//     case 3:
+//      return 'Three'
+//     case 4:
+//      return 'Four'
+//     case 5:
+//      return 'Five'  
+//     case 6:
+//      return 'Six'
+//     case 7:
+//      return 'Seven' 
+//     case 8:
+//      return 'Eight'
+//     case 9:
+//      return 'Nine'
+//   }
+// }
+// console.log(switchItUp(1));
+
+// O valor passado por parametro, pega todos os multiplos de 3 ou 5 até o intervalo do mesmo e os soma!
+
+// function solution(number) {
+//   let multiplos = 0
+//   for (let index = 0; index < number; index+=1) {
+//     if (index % 3 == 0 || index % 5 == 0) {
+//       multiplos+=index
+//     }
+//   }
+//   return multiplos
+// }
+// console.log(solution(2));
+
+// Crie uma função que receba 2 inteiros na forma de uma string como entrada e produza a soma (também como uma string):
+
+// function sumStr(a,b) {
+//   let NumForStr = Number(a) + Number(b)
+//   return NumForStr.toString()
+// }
+// //       OU:
+// function sumStr(a,b) {
+//   return String(Number(a)+Number(b));
+// }
+// console.log(typeof sumStr('10','11'));
+
+// function removeSmallest(numbers) {
+//   let LocateInd = numbers.indexOf(Math.min(...numbers)) // Encontro o indice de menor valor no array
+//   return numbers.filter((_,index) => index !== LocateInd) // Filtro o item do indice anteriormente encontrado e comparo se são diferentes e retorno os demais indices.
+  
+// }
+// console.log(removeSmallest([1,2,3,4,5]));
+// console.log(removeSmallest([15,12,3,4,5,3]));
