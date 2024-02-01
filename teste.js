@@ -402,3 +402,5 @@ console.log(paperwork(5, 7))*/
 // }
 // console.log(removeSmallest([1,2,3,4,5]));
 // console.log(removeSmallest([15,12,3,4,5,3]));
+
+// Comentário para atualizar o git no Mac
