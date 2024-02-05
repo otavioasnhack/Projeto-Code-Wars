@@ -403,4 +403,95 @@ console.log(paperwork(5, 7))*/
 // console.log(removeSmallest([1,2,3,4,5]));
 // console.log(removeSmallest([15,12,3,4,5,3]));
 
-// Comentário para atualizar o git no Mac
+// const rps = (p1, p2) => {  // Jogo Pedra, Papel, Tesoura - Tem que retornar qual jogador ganhou, em caso de empate retorne Draw!
+//   if (p1 == p2) {
+//     return "Draw!"
+//   }
+//   if ((p1 == 'paper' && p2 == 'rock') || (p1 == 'rock' && p2 == 'scissors') || (p1 == 'scissors' && p2 == 'paper')) {
+//     return "Player 1 won!"
+//   }
+//   else {
+//     return "Player 2 won!"
+// }
+// }
+// console.log(rps('scissors', 'paper'));
+
+// function getMiddle(s) { // Retorna o caractere do meio da palavra.
+//   if (s.length % 2 == 1) { // Se o comprimento da palavra for ímpar, retorne o caractere do meio.
+//     return s.charAt(s.length/2)
+//   }
+//   if (s.length % 2 == 0) { // Se o comprimento da palavra for par, retorne os 2 caracteres do meio.
+//     return s.substr(s.length/2 - 1,2)
+//   }
+// }
+// console.log(getMiddle('uva'));
+
+// EM UMA ÚNICA STRING, MODIFICAR TODOS OS NUMEROS MENORES QUE 5 PARA 0 E MAIORES PARA 1!
+
+// function fakeBin(x){
+// let str = x.split('') // Torna a string única em uma lista(array).
+// for (let index = 0; index < str.length; index++) {
+//   if (Number(str[index]) < 5) { // Converte a lista de strings em números e verifica a condição se é menor que 5 e se for retorna 0!
+//     str[index] = '0'
+//   }
+//   if (Number(str[index]) >= 5) { // Converte a lista de strings em números e verifica a condição se é maior que 5 e se for retorna 1!
+//     str[index] = '1'
+//   }
+// }
+// return str.join('') // Retorna a lista para um array único. 
+// }
+// console.log(fakeBin('123456789'));
+// console.log(fakeBin('0123'));
+// console.log(fakeBin('782193'));
+
+// FALTA TERMINAR ESSE DESAFIO ABAIXO
+
+// function high(x){
+//  const valorLetras = {
+//   a: 1, b: 2, c: 3, d: 4, e: 5, f: 6, g: 7, h: 8, i: 9, j: 10, k: 11, l: 12, m: 13, n: 14, o: 15,
+//   p: 16, q: 17, r: 18, s: 19, t: 20, u: 21, v: 22, w: 23, x: 24, y: 25, z: 26
+//  }
+//  let cont = {}
+//  let separador = x.split(' ')
+//  for (let i = 0; i < separador.length; i+=1) {
+//   const palavra = separador[i];
+//   let soma = 0
+//   for (let index = 0; index < palavra.length; index+=1) {
+//   let letra = palavra[index]
+//   if (valorLetras.hasOwnProperty(letra)) {
+//      soma += valorLetras[letra];
+//   }
+//  }
+//  cont[palavra] = soma
+//  }
+//  const uniqEntries = Object.entries(cont)
+//  for (let index = 0; index < uniqEntries.length; index++) {
+//   if (uniqEntries == cont) {
+    
+//   }
+//   return 
+//  }
+// }
+// console.log(high('otavio'));
+// console.log(high('otavio augusto de souza nepomuceno'));
+
+// function century(year) {
+//   return Math.ceil(year/100)  //Dado um ano, retorne o século em que ele se encontra.
+// }
+// console.log(2024);
+
+// function isPangram(string){
+//  let alfabeto = "abcdefghijklmnopqrstuvwxyz" //
+//  let letras = alfabeto.split('')
+//  for (let index = 0; index < letras.length; index++) {
+//   let conferindo = letras[index]
+//   if (!string.toLowerCase().includes(conferindo)) {
+//     return false
+//   }
+// }
+//   return true
+// } 
+// console.log(isPangram('The quick brown fox jumps over the lazy dog'));
+// console.log(isPangram('otavio'));
+// console.log(isPangram("abcdefghijklmnopqrstuvwxyz"));
+// console.log(isPangram('Cwm fjord bank glyphs vext quiz'));
