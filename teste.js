@@ -495,3 +495,35 @@ console.log(paperwork(5, 7))*/
 // console.log(isPangram('otavio'));
 // console.log(isPangram("abcdefghijklmnopqrstuvwxyz"));
 // console.log(isPangram('Cwm fjord bank glyphs vext quiz'));
+
+// function duplicateCount(text){
+//   text = text.toLowerCase().split('').sort().join('') // Reatribuo valor para o parametro(text), e realizo as ações dos métodos. 
+//   let count = i = 0; // Crio um contador e uma variável(i) e atribuo o valor de zero para ambas. 
+//    while(i < text.length){ // Crio a condição que (Enquanto 'i' for menor que o comprimento de 'text')
+//       let p1 = text.indexOf(text[i]); // Criada uma variável para capturar o indice da primeira string em text.
+//       let p2 = text.lastIndexOf(text[i]); // Criada uma variável para capturar o indice da última string em text.
+//       var len = p2-p1+1 // Criada uma variável para subtrair o indice da primeira e da última string capturadas nas variáveis(p1,p2) em text.
+//       len != 1 ? (count++, i += len) : i++; // Usando um ternário(condição, caso de sucesso, caso de falha) (caso de falha: Pula pro próximo indice)
+//    } // (condição: Se o calculo for diferente de 1, incrementa no contador em um (count++) e pula pro indice da proxima string(letra)
+//    return count // retorna o contador
+// }
+// console.log(duplicateCount('abcde'));
+// console.log(duplicateCount('aabbcde'))
+// console.log(duplicateCount('aabBcde'))
+// console.log(duplicateCount('Indivisibilidades'))
+
+// function cockroachSpeed(s) {
+//   return Math.floor((s/3.6)*100) // Pega velocidade em km por hora e a retorna em cm por segundo e arredonda para o número inteiro.
+// }
+// console.log(cockroachSpeed(1.08));
+// console.log(cockroachSpeed(1.09));
+
+// function doubleChar(str) {
+//   let subStr = str.split('') // Divido a string única em uma lista(array) de strings
+//   let mult = subStr.map((x) => x + x).join('') // Uso o metodo map para clonar o array e o metodo join para voltar para uma string única.
+//   return mult
+// }
+// console.log(doubleChar("abcd"));
+// console.log(doubleChar("Adidas"));
+// console.log(doubleChar("1337"));
+
