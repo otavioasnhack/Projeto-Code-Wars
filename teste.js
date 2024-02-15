@@ -527,3 +527,11 @@ console.log(paperwork(5, 7))*/
 // console.log(doubleChar("Adidas"));
 // console.log(doubleChar("1337"));
 
+// var uniqueInOrder=function(iterable) { // -> retorna uma lista de itens sem nenhum elemento com o mesmo valor próximos uns dos outros e preservando a ordem original dos elementos.
+//   // iterable = typeof iterable === 'string' ? iterable.split('') : iterable;
+//   return [...iterable].filter((a, i) => a !== iterable[i-1])
+// }
+
+// console.log(uniqueInOrder([1,2,2,3,3]));
+// console.log(uniqueInOrder('AAAABBBCCDAABBB'));
+// console.log(uniqueInOrder('ABBCcAD'));
