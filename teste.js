@@ -527,6 +527,11 @@ console.log(paperwork(5, 7))*/
 // console.log(doubleChar("Adidas"));
 // console.log(doubleChar("1337"));
 
+// var uniqueInOrder=function(iterable) { // -> retorna uma lista de itens sem nenhum elemento com o mesmo valor próximos uns dos outros e preservando a ordem original dos elementos.
+//   // iterable = typeof iterable === 'string' ? iterable.split('') : iterable;
+//   return [...iterable].filter((a, i) => a !== iterable[i-1])
+// }
+
 // function solution(str){
 //   return str.split('').reverse().join('')
 // }
@@ -570,3 +575,58 @@ console.log(paperwork(5, 7))*/
 // console.log(quarterOf(8));
 
 
+// function solution(str){
+//   return str.split('').reverse().join('')
+// }
+// console.log(solution('hello'));
+
+// Escreva uma função que aceite um número inteiro ne uma string scomo parâmetros e retorne uma string srepetida exatamente nvezes.
+
+// function repeatStr (n, s) {
+//   let cont = ''
+//   for (let index = 0; index < n; index++) {
+//     cont+= s
+//   }
+//   return cont
+// }
+// console.log(repeatStr(6, 'otavio'));
+// console.log(repeatStr(4, 'A'));
+
+// function enough(cap, on, wait) {
+//   if (cap - on <= wait) { 
+//     return wait - (cap - on)
+//   }
+//   else {
+//    return 0
+//   }
+// }
+// console.log(enough(10, 5, 5)); 
+// console.log(enough(100, 60, 50)); 
+// console.log(enough(80, 37, 50)) 
+
+// const quarterOf = (month) => {
+//   if (month <= 3) {
+//     return 1
+//   } else if (month <= 6) {
+//     return 2                 // Dado um mês como um número inteiro de 1 a 12, retorne a qual trimestre do ano ele pertence como um número inteiro.
+//   } else if (month <= 9) {
+//     return 3
+//   } else if (month <= 12) {
+//     return 4
+//   }
+// }
+// console.log(quarterOf(8));
+
+
+// var uniqueInOrder=function(iterable) { // -> retorna uma lista de itens sem nenhum elemento com o mesmo valor próximos uns dos outros e preservando a ordem original dos elementos.
+//   // iterable = typeof iterable === 'string' ? iterable.split('') : iterable;
+//   return [...iterable].filter((a, i) => a !== iterable[i-1])
+// }
+
+// console.log(uniqueInOrder([1,2,2,3,3]));
+// console.log(uniqueInOrder('AAAABBBCCDAABBB'));
+// console.log(uniqueInOrder('ABBCcAD'));
+
+// console.log(uniqueInOrder([1,2,2,3,3]));
+// console.log(uniqueInOrder('AAAABBBCCDAABBB'));
+// console.log(uniqueInOrder('ABBCcAD'));
