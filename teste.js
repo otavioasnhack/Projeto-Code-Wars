@@ -414,7 +414,7 @@ console.log(paperwork(5, 7))*/
 //     return "Player 2 won!"
 // }
 // }
-// console.log(rps('scissors', 'paper'));
+// console.log(rps('rock', 'paper'));
 
 // function getMiddle(s) { // Retorna o caractere do meio da palavra.
 //   if (s.length % 2 == 1) { // Se o comprimento da palavra for ímpar, retorne o caractere do meio.
