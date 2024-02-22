@@ -1,0 +1,6 @@
+{
+    "extends": "trybe-fundamentals",
+    "rules":{
+        "max-lines": 0
+    }
+}

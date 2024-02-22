@@ -1,11 +1,11 @@
-// const numbers = []
-// const limit = 10
-// for (let index = 0; index < limit; index+=1) {
-//     numbers.push(index)
-// }
-//Array.from({length:limit}).forEach((_, index) => {numbers.push(index)})
-// const numbers = Array.from({length:limit}).map((_, index) => index)
-//console.log(numbers);
+//  const numbers = [];
+//  const limit = 10;
+// // for (let index = 0; index < limit; index+=1) {
+// //     numbers.push(index)
+// // }
+// Array.from({ length: limit }).forEach((_, index) => { numbers.push(index); }); 
+// // const numbers = Array.from({length:limit}).map((_, index) => index)
+// console.log(numbers);
 // for (let index = 0; index < limit; index++) {
 //     if (index % 2 == 0) {
 //         numbers.push(index)
