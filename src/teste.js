@@ -537,3 +537,48 @@
 // console.log(uniqueInOrder('ABBCcAD'));
 
 // Atualizando o github
+
+//  function countSheep(num) { // Contar carneiros para dormir
+//   let cont = ''; 
+//   for (let index = 1; index <= num; index += 1) {
+//     cont += `${index} sheep...`;
+//   }
+//   return cont;
+// };
+// console.log(countSheep(5));
+
+// function expandedForm(num) {
+//   const numForString = num.toString();
+//   let result = '';
+//   for (let index = 0; index < numForString.length; index += 1) {
+//     const digit = parseInt(numForString[index]);
+//     if (digit !== 0) {
+//       result += `${digit * Math.pow(10, numForString.length - index - 1)} + `;
+//   }
+// }
+// return result.slice(0, -3);
+// }
+             // OU O DEBAIXO
+// function expandedForm(num) {
+//   return String(num)
+//           .split("")
+//           .map((num, index, arr) => num + '0'.repeat(arr.length - index -1 ))
+//           .filter((num) => Number(num) !== 0)
+//           .join(' + ');
+// }
+// console.log(expandedForm(12));
+// console.log(expandedForm(42));
+// console.log(expandedForm(70304))
+
+// function findUniq(arr) {
+//   arr.sort((a, b) => a - b);
+//   return arr[0] === arr[1] ? arr.pop() : arr[0];
+// }
+// console.log(findUniq([1, 1, 1, 2, 1, 1]));
+// console.log(findUniq([0, 0, 0.55, 0, 0])); 
+
+// function duplicateEncode(word) {
+//   word = word.toLowerCase();
+//   return word.replace(/./g, m => word.indexOf(m) == word.lastIndexOf(m) ? '(' : ')');
+// }
+// console.log(duplicateEncode('otavio'));
