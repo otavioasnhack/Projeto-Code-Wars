@@ -582,3 +582,13 @@
 //   return word.replace(/./g, m => word.indexOf(m) == word.lastIndexOf(m) ? '(' : ')');
 // }
 // console.log(duplicateEncode('otavio'));
+
+// String.prototype.isUpperCase = function() {
+//   return [...this].every((element) => element === element.toUpperCase()); // Verifica se todas as letras da string são maiusculas, e se uma não for, retorna falso.
+// }
+// console.log(''.isUpperCase());
+
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+// return Math.abs(sonYearsOld * 2 - dadYearsOld) // Calcula quando o pai teve/ terá o dobro da idade do filho
+// }
+// console.log(twiceAsOld(54, 30)); 
