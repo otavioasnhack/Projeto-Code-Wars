@@ -1,6 +1,7 @@
 {
     "extends": "trybe-fundamentals",
     "rules":{
-        "max-lines": 0
+        "max-lines": 0,
+        "indent": [2,4]
     }
 }

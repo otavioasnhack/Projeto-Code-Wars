@@ -65,114 +65,114 @@
 //     const classInstance = new SmallestIntegerFinder()
 //     console.log(classInstance.findSmallestInt([2, 5, 7, 23, 37, 49, 1, 3]))*/
 
-    // function past(h, m, s){
-    // let hora = 3600 * h
-    // let minuto = 60 * m //Codigo para transformar horas, minutos e segundos em milisegundos
-    // let segundos = 1 * s
-    // let mili = (hora + minuto + segundos) * 1000
-    // return mili
-    // }
-    // console.log(past(2, 20, 30));
+// function past(h, m, s){
+// let hora = 3600 * h
+// let minuto = 60 * m //Codigo para transformar horas, minutos e segundos em milisegundos
+// let segundos = 1 * s
+// let mili = (hora + minuto + segundos) * 1000
+// return mili
+// }
+// console.log(past(2, 20, 30));
 
-    // function past(h, m, s){
-    //   return ((3600 * h + 60 * m + s) * 1000) //Codigo simplificado para transformar horas, minutos e segundos em milisegundos
-    // }
-    // console.log(past(2, 20, 30));
+// function past(h, m, s){
+//   return ((3600 * h + 60 * m + s) * 1000) //Codigo simplificado para transformar horas, minutos e segundos em milisegundos
+// }
+// console.log(past(2, 20, 30));
 
-    // function noSpace(x){
-    //   return x.replace(/ /g, '') // Remove os espaços em branco de uma string.
-    // }
-    // console.log(noSpace('otavio augusto de souza nepomuceno'));
+// function noSpace(x){
+//   return x.replace(/ /g, '') // Remove os espaços em branco de uma string.
+// }
+// console.log(noSpace('otavio augusto de souza nepomuceno'));
+
+// function palindromo(verificar) {
+//   let texto = verificar.split('').reverse().join('').replace(/ /g, '')
+//   if (texto === verificar.replace(/ /g, '')) { // Verifica se a palavra/frase é um palindromo e remove os espaços quando for um texto
+//     return true 
+//   }
+//   else {
+//     return false
+//   }
+// }
+// console.log(palindromo('a base vem forte'));
+
+// function greet() {
+//   let word = 'Hello World!'
+//   return word            //Retorna a string da função sem usar o parametro
+// }
+// console.log(greet())
+
+// function reverseWords(str) {
+//   let invertendo = str.split(' ') //Separa ao invés das letras, as palavras, devido o metodo com espaço
+//   let resultado = [] // Armazena todos os valores em uma lista
+//   for (let index = 0; index < invertendo.length; index+=1) { //Percorre toda a lista do primeiro ao ultimo elemento
+//     resultado.push(invertendo[index].split('').reverse().join('')) //Invertendo as palavras e adicionando em resultado
+//   }
+//   return resultado.join(' ') //Retornando as palavras invertidas e convertendo os itens da lista em uma única string e fixa o separador como um espaço
+// }
+// console.log(reverseWords('The quick brown fox jumps over the lazy dog.'))
     
-    // function palindromo(verificar) {
-    //   let texto = verificar.split('').reverse().join('').replace(/ /g, '')
-    //   if (texto === verificar.replace(/ /g, '')) { // Verifica se a palavra/frase é um palindromo e remove os espaços quando for um texto
-    //     return true 
-    //   }
-    //   else {
-    //     return false
-    //   }
-    // }
-    // console.log(palindromo('a base vem forte'));
+// function areYouPlayingBanjo(name) {
+//   if (name.toLowerCase().startsWith('r')) { //Condiciona a primera letra e converte para minusculo
+//   return `${name} plays banjo`
+// }
+// return `${name} does not play banjo`
+// }
+// console.log(areYouPlayingBanjo('Ricardo'));        
+    
+// String.prototype.toJadenCase = function () {
+//   let frase = this.split(' ') // Separa ao invés das letras, as palavras, devido o metodo com espaço
+//   let result = [] // Armazena todos os valores em uma lista
+//   for (let index = 0; index < frase.length; index++) {
+//     result.push(frase[index][0].toUpperCase() + frase[index].substring(1)) //Torna a primeira letra maiuscula e concatena a partir da segunda
+//   }
+//   return result.join(' ') 
+//  }
+//  console.log('How can mirrors be real if our eyes aren\'t real'.toJadenCase())
+//  console.log('otavio pedro mariano mickey'.toJadenCase())
 
-    // function greet() {
-    //   let word = 'Hello World!'
-    //   return word            //Retorna a string da função sem usar o parametro
-    // }
-    // console.log(greet())
+// function descendingOrder(n){
+//   let str = n.toString() // Converte de número para string
+//   let list = str.split('') // Converte de string para lista
+//   let sort = list.sort((a, b) => b - a).join('') // Faz a ordenaçao decrescente e junta a lista em uma única string
+//   return parseInt(sort) // Converte a string em número novamente
+// }
+// console.log(descendingOrder(345))
+// console.log(descendingOrder(1234))
+// console.log(descendingOrder(68917))
 
-    // function reverseWords(str) {
-    //   let invertendo = str.split(' ') //Separa ao invés das letras, as palavras, devido o metodo com espaço
-    //   let resultado = [] // Armazena todos os valores em uma lista
-    //   for (let index = 0; index < invertendo.length; index+=1) { //Percorre toda a lista do primeiro ao ultimo elemento
-    //     resultado.push(invertendo[index].split('').reverse().join('')) //Invertendo as palavras e adicionando em resultado
-    //   }
-    //   return resultado.join(' ') //Retornando as palavras invertidas e convertendo os itens da lista em uma única string e fixa o separador como um espaço
-    // }
-    // console.log(reverseWords('The quick brown fox jumps over the lazy dog.'))
-        
-    // function areYouPlayingBanjo(name) {
-    //   if (name.toLowerCase().startsWith('r')) { //Condiciona a primera letra e converte para minusculo
-    //   return `${name} plays banjo`
-    // }
-    // return `${name} does not play banjo`
-    // }
-    // console.log(areYouPlayingBanjo('Ricardo'));        
-        
-    // String.prototype.toJadenCase = function () {
-    //   let frase = this.split(' ') // Separa ao invés das letras, as palavras, devido o metodo com espaço
-    //   let result = [] // Armazena todos os valores em uma lista
-    //   for (let index = 0; index < frase.length; index++) {
-    //     result.push(frase[index][0].toUpperCase() + frase[index].substring(1)) //Torna a primeira letra maiuscula e concatena a partir da segunda
-    //   }
-    //   return result.join(' ') 
-    //  }
-    //  console.log('How can mirrors be real if our eyes aren\'t real'.toJadenCase())
-    //  console.log('otavio pedro mariano mickey'.toJadenCase())
-
-    // function descendingOrder(n){
-    //   let str = n.toString() // Converte de número para string
-    //   let list = str.split('') // Converte de string para lista
-    //   let sort = list.sort((a, b) => b - a).join('') // Faz a ordenaçao decrescente e junta a lista em uma única string
-    //   return parseInt(sort) // Converte a string em número novamente
-    // }
-    // console.log(descendingOrder(345))
-    // console.log(descendingOrder(1234))
-    // console.log(descendingOrder(68917))
-
-    // function minMax(arr){
-    //   return [arr.sort(function(a, b){return a - b;})[0], arr[arr.length - 1]] // Ordena a lista(crescente) e retorna o primeiro e ultimo indice
-    // }
-    // console.log(minMax([9, 8, 5, 2, 3, 1]))
-    // console.log(minMax([112, 23, 257, 5, 322]))
-    // console.log(minMax([11]))
-      
-    // const list = [17, 1, 23,]
-    // const doublelist = [...list]
-    // doublelist.push(5)
-    // console.log(list)
-    // console.log(doublelist);
-     
-    // let isLogged = true
-    // let pessoa = {
-    //   ...(isLogged && {id:1262}),
-    //   nome: 'otavio',
-    //   idade: 26
-    // }
-    // console.log(pessoa);
-     
-  //   function nbYear(p0, percent, aug, p) {
-  //     let years = 0
-  //     while (p0 < p) {
-  //     p0+= Math.floor(p0 * (percent / 100)) + aug
-  //      years+=1
-  //     }
-  //     return years
-  // }
-  // console.log(nbYear(1000, 2, 50, 1200));
-  // console.log(nbYear(1500, 5, 100, 5000));
-  // console.log(nbYear(1500000, 2.5, 10000, 2000000));
-  // console.log(nbYear(1500000, 0.25, 1000, 2000000));
+// function minMax(arr){
+//   return [arr.sort(function(a, b){return a - b;})[0], arr[arr.length - 1]] // Ordena a lista(crescente) e retorna o primeiro e ultimo indice
+// }
+// console.log(minMax([9, 8, 5, 2, 3, 1]))
+// console.log(minMax([112, 23, 257, 5, 322]))
+// console.log(minMax([11]))
+    
+// const list = [17, 1, 23,]
+// const doublelist = [...list]
+// doublelist.push(5)
+// console.log(list)
+// console.log(doublelist);
+    
+// let isLogged = true
+// let pessoa = {
+//   ...(isLogged && {id:1262}),
+//   nome: 'otavio',
+//   idade: 26
+// }
+// console.log(pessoa);
+    
+//   function nbYear(p0, percent, aug, p) {
+//     let years = 0
+//     while (p0 < p) {
+//     p0+= Math.floor(p0 * (percent / 100)) + aug
+//      years+=1
+//     }
+//     return years
+// }
+// console.log(nbYear(1000, 2, 50, 1200));
+// console.log(nbYear(1500, 5, 100, 5000));
+// console.log(nbYear(1500000, 2.5, 10000, 2000000));
+// console.log(nbYear(1500000, 0.25, 1000, 2000000));
 
 // Retorna a execução dos operados básicos vindos por parametro. 
   
@@ -558,7 +558,7 @@
 // }
 // return result.slice(0, -3);
 // }
-             // OU O DEBAIXO
+// OU O DEBAIXO
 // function expandedForm(num) {
 //   return String(num)
 //           .split("")
@@ -592,3 +592,81 @@
 // return Math.abs(sonYearsOld * 2 - dadYearsOld) // Calcula quando o pai teve/ terá o dobro da idade do filho
 // }
 // console.log(twiceAsOld(54, 30)); 
+
+// function solution(nums) {
+//     if (nums === null || nums.length === 0) {
+//         return [];
+//     }
+//     const ordem = nums.sort((a, b) => a - b);
+//     return ordem;
+// }
+// console.log(solution([1, 2, 3, 10, 5]));
+// console.log(solution([]));
+// console.log(solution(null));
+// console.log(solution([1, 6, 3, 10, 27]));
+
+// function reverseList(list) {
+//     return list.reverse()    // função que recebe uma lista e retorna uma lista na ordem inversa.
+// }
+// console.log(reverseList([1, 2, 3, 4]));
+// console.log(reverseList([9, 2, 0, 7]));
+
+// function sumTwoSmallestNumbers(numbers) {  //
+//     numbers.sort((a, b) => a - b);
+//     const minValores = numbers.slice(0, 2);
+//     const somaDosMenoresValores = minValores.reduce((acc, val) => acc + val);
+//     return somaDosMenoresValores
+// }
+// console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]));
+// console.log(sumTwoSmallestNumbers([15, 28, 4, 2, 43]));
+// console.log(sumTwoSmallestNumbers([3, 87, 45, 12, 7]));
+
+// function move(position, roll) { // lança os dados e move duas vezes o número de espaços indicados pelos dados. Crie uma função para o jogo terminal que pega a posição atual do herói e rola (1-6) e retorna a nova posição.
+//     return position + (roll * 2);
+// }
+// console.log(move(0, 4));
+// console.log(move(3, 6));
+// console.log(move(2, 5));
+
+// const sequenceSum = (begin, end, step) => {
+//     if (begin > end) {
+//         return 0;
+//     }
+
+//     let sum = 0;
+
+//     for (let index = begin; index <= end; index += step) {
+//         sum += index;
+//     }
+//     return sum;
+// };
+// console.log(sequenceSum(2, 21, 3));
+// console.log(sequenceSum(5, 18, 3));
+// console.log(sequenceSum(3, 15, 5));
+
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     const autonomia = fuelLeft * mpg;
+//     if (autonomia >= distanceToPump) {
+//         return true;
+//     }
+//     if (autonomia <= distanceToPump) {
+//         return false;
+//     }
+// };
+// console.log(zeroFuel(50, 25, 2));
+// console.log(zeroFuel(100, 50, 1));
+
+// function howMuchILoveYou(nbPetals) {
+//     const frases = [
+//         'I love you',
+//         'a little',
+//         'a lot',
+//         'passionately',
+//         'madly',
+//         'not at all',
+//     ];
+//     const res = (nbPetals - 1) % frases.length;
+//     return frases[res];
+// }
+// console.log(howMuchILoveYou(7));
+// console.log(howMuchILoveYou(2));
