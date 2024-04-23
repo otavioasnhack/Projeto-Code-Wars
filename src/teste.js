@@ -670,3 +670,28 @@
 // }
 // console.log(howMuchILoveYou(7));
 // console.log(howMuchILoveYou(2));
+
+// function removeUrlAnchor(url) {
+//     const i = url.indexOf('#'); // Retorna o indice do elemento passado por parametro
+//     if (i !== -1) {
+//         return url.substring(0, i); // Retorna a string de acordo com o parametro inicial e o final
+//     }    
+//     return url;
+// }
+// console.log(removeUrlAnchor('www.codewars.com#about'));
+// console.log(removeUrlAnchor('www.codewars.com/katas/?page=1#about'));
+// console.log(removeUrlAnchor('www.codewars.com/katas/'));
+
+// function greet(name) {
+//     return `Hello, ${name} how are you doing today?`; // Retorna a saudação com o nome passado por parametro
+// }
+// console.log(greet('Otávio'));
+
+// const reverseSeq = n => {
+//     const numbers = []
+//     for (let index = 1; index <= n; index += 1) {
+//         numbers.unshift(index)
+//     }
+//     return numbers;
+// };
+// console.log(reverseSeq(5));
