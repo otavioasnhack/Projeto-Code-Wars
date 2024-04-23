@@ -710,4 +710,8 @@
 //   }
 //   console.log(isIsogram("abCdeFG"));
 //   console.log(isIsogram("aba"));
-  
+
+// function shortcut(string) {
+//     return string.replace(/[aeiou]/g, ''); 
+// }
+// console.log(shortcut('HELLO'));
