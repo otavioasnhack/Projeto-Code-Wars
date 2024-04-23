@@ -695,3 +695,19 @@
 //     return numbers;
 // };
 // console.log(reverseSeq(5));
+// function isIsogram(str){ // Suponha que a string vazia seja um isograma( não possui letras repetidas, consecutivas ou não consecutivas). Ignore letras maiúsculas e minúsculas.
+//     str = str.toLowerCase();
+//     let seen = {};
+//     for (let index = 0; index < str.length; index += 1) {
+//         let letter = str[index]
+//         const condition = Boolean(seen[letter])
+//         if (condition) {
+//             return false;
+//         }
+//         seen[letter] = true;
+//     }
+//     return true;
+//   }
+//   console.log(isIsogram("abCdeFG"));
+//   console.log(isIsogram("aba"));
+  
