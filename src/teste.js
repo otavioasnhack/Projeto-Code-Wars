@@ -715,3 +715,19 @@
 //     return string.replace(/[aeiou]/g, ''); 
 // }
 // console.log(shortcut('HELLO'));
+
+// function setAlarm(employed, vacation) {
+//     return employed && !vacation; // A função deve retornar verdadeiro se você estiver empregado e não estiver de férias.
+// }
+// console.log(setAlarm(false, true));
+
+// function removeEveryOther(arr) { // Remover todos os itens que tenham o indice impar
+//     for (let index = arr.length - 1; index >= 0; index -= 1) {
+//         if (index % 2 !== 0) {
+//             arr.splice(index, 1);
+//         }
+//     }
+//     return arr;
+// }
+// console.log(removeEveryOther(['Keep', 'Remove', 'Keep', 'Remove', 'Keep']));
+// console.log(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
