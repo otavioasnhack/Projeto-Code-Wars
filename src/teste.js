@@ -731,3 +731,20 @@
 // }
 // console.log(removeEveryOther(['Keep', 'Remove', 'Keep', 'Remove', 'Keep']));
 // console.log(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
+// function evenOrOdd(number) {
+//     return number % 2 === 0 ? 'Even' : 'Odd';
+// }
+// console.log(evenOrOdd(45));
+
+// function dnaStrand(dna) {
+//     const letters = {
+//         A: 'T',
+//         T: 'A',
+//         C: 'G',
+//         G: 'C',
+//     };
+//     // return dna.replace(/A/g, 't').replace(/T/g, 'a').replace(/C/g, 'g').replace(/G/g, 'c').toUpperCase();
+//     return dna.split('').map(v => letters[v]).join('');
+// }
+// console.log(dnaStrand('ATG'));
