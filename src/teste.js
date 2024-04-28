@@ -748,3 +748,21 @@
 //     return dna.split('').map(v => letters[v]).join('');
 // }
 // console.log(dnaStrand('ATG'));
+
+// function abbrevName(name) {
+//     const letters = name.trim().split(' ') //  converter um nome em iniciais, a saída deve ser duas letras maiúsculas com um ponto separando-as.
+//     const firstLetter = letters[0][0].toUpperCase();
+//     const secondLetter = letters[1][0].toUpperCase();
+//     return `${firstLetter}.${secondLetter}`; 
+//     //return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+//     //var nameArray = name.split(" ");
+//     //return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+// }
+// console.log(abbrevName("Evan Cole"));
+// console.log(abbrevName("P Favuzzi"));
+
+function updateLight(current) {
+  
+    //your code here!
+  
+  }
