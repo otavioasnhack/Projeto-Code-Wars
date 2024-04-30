@@ -761,8 +761,25 @@
 // console.log(abbrevName("Evan Cole"));
 // console.log(abbrevName("P Favuzzi"));
 
-function updateLight(current) {
-  
-    //your code here!
-  
-  }
+// function problem(x) { // Faça uma função que retorne o valor multiplicado por 50 e aumentado por 6. Se o valor inserido for uma string deverá retornar "Erro".
+//     return typeof x === 'number' ? x * 50 + 6 : 'Error';
+// }
+// console.log(problem('pedro'));
+
+// function friend(friends) { // Faça um programa que filtre uma lista de strings e retorne uma lista contendo apenas o nome dos seus amigos(4 letras).
+//     return friends.filter((fourLetters) => fourLetters.length === 4);
+// }
+// console.log(friend(['Ryan', 'Kieran', 'Mark', 'Jimmy', 'aret']));
+
+// function greet(language) { // Escreva uma função de 'boas-vindas' que receba um parâmetro 'linguagem', com um tipo String, e retorne uma saudação.
+// const greeting = {
+// english: 'Welcome', czech: 'Vitejte', danish: 'Velkomst', dutch: 'Welkom', estonian: 'Tere tulemast', 
+// finnish: 'Tervetuloa', flemish: 'Welgekomen', french: 'Bienvenue', german: 'Willkommen', irish: 'Failte', 
+// italian: 'Benvenuto', latvian: 'Gaidits', lithuanian: 'Laukiamas', polish: 'Witamy', spanish: 'Bienvenido',
+// swedish: 'Valkommen', welsh: 'Croeso',
+//     };
+//     return greeting[language.toLowerCase()] || 'Welcome';
+// }
+// console.log(greet('english'));
+// console.log(greet('dutch'));
+// console.log(greet('otavio'));
