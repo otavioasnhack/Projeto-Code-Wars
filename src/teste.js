@@ -783,3 +783,33 @@
 // console.log(greet('english'));
 // console.log(greet('dutch'));
 // console.log(greet('otavio'));
+
+// function getChar(c) {
+//     return String.fromCharCode(c); // Escreva uma função que receba um número e retorne o caracter ASCII correspondente para esse valor.
+// }
+// console.log(getChar(96));
+
+// function roundToNext5(n) {
+//     return Math.ceil(n / 5) * 5; // Dado um número inteiro como entrada, você pode arredondá-lo para o próximo (ou seja, "maior ou igual") múltiplo de 5
+// }
+// console.log(roundToNext5(2));
+// console.log(roundToNext5(23));
+
+// const areaOrPerimeter = (l, w) => (l === w ? l ** 2 : (l + w) * 2);
+// // Você recebe o lengthe widthde um polígono de 4 lados. O polígono pode ser um retângulo ou um quadrado. Se for um quadrado, retorne sua área. Se for um retângulo, retorne seu perímetro.
+// console.log(areaOrPerimeter(3, 3));
+// console.log(areaOrPerimeter(6, 10)); 
+
+// function hoopCount(n) { // Escreva um programa onde Alex possa inserir (n) quantas vezes o arco dá voltas e ele retornará uma mensagem encorajadora.
+//     return n >= 10 ? 'Great, now move on to tricks' : 'Keep at it until you get it';
+// }
+// console.log(hoopCount(30));
+
+// function between(a, b) { // Complete a função que recebe dois inteiros ( a, b, onde a < b) e retorna uma matriz de todos os inteiros entre os parâmetros de entrada, incluindo eles.
+//     const list = [];
+//     for (let index = a; index <= b; index += 1) {
+//         list.push(index);
+//     }
+//     return list;
+// }
+// console.log(between(-4, 4));
